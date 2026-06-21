@@ -1,0 +1,30 @@
+/* Smoothly float the top-left background light circle */
+@keyframes floatTop {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Smoothly float the bottom-right background light circle */
+@keyframes floatBottom {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Apply the background light circle animations */
+.animate-cloud-1 { 
+    animation: floatTop 8s ease-in-out infinite; 
+}
+.animate-cloud-2 { 
+    animation: floatBottom 11s ease-in-out infinite; 
+}
+
+/* Hide the default horizontal browser scrollbar for the blog slider */
+.no-scrollbar { 
+    scrollbar-width: none; /* Hide on Firefox */
+    -ms-overflow-style: none; /* Hide on Internet Explorer/Edge */
+}
+.no-scrollbar::-webkit-scrollbar { 
+    display: none; /* Hide on Chrome, Safari, and Opera */
+}
