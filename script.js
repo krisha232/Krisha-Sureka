@@ -1,5 +1,5 @@
 // CHANGE THIS: Put your real Medium username here (keep the @ if your handle uses it)
-const MEDIUM_USERNAME = "@swamp-thing"; 
+const MEDIUM_USERNAME = "@krisha0232"; 
 
 let BLOG_POSTS = [];
 let currentArticleId = null;
