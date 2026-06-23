@@ -181,7 +181,7 @@ function handleShare() {
     
     if (post && post.link) {
         navigator.clipboard.writeText(post.link);
-        alert("Medium article link copied to clipboard!");
+        alert("Article link copied to clipboard!");
     } else {
         navigator.clipboard.writeText(window.location.href);
         alert("Link saved to clipboard!");
